@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Lexend' ;
+    src: url(assets/fonts/Lexend/LexendDeca-Light.ttf);
+}
+
+@font-face {
+    font-family: 'BigShoulders' ;
+    src: url(assets/fonts/BigShoulders/BigShoulders-Light.ttf)
+}
+
+body{
+    background-color: #f2f2f2;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    height: auto;
+    width: 780px;
+    max-width: 95%;
+}
+
+.cardSedan{
+    background-color: #e28525;
+    width: 260px ;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    flex: 1;
+}
+
+.carIcon{
+    margin-left: 15%;
+    margin-top: 13%;
+    margin-bottom: 8%;
+}
+
+.carModel{
+    font-family: 'BigShoulders' ;
+    margin-left: 15%;
+    font-weight: 700;
+    color: #f2f2f2;
+    margin-bottom: 8%;
+}
+
+.cardText{
+   color: #f2f2f2;
+   margin-left: 15%;
+   font-family: 'Lexend' ;
+   font-weight: 400;
+   font-size: 0.8em;
+   width: 65%;
+   line-height: 25px;
+}
+
+#buttonSedan{
+    display: block;
+    margin-top: 25%;
+    margin-left: 15%;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 10%;
+    border: none;
+    border-radius: 20px;
+    margin-left: 15%;
+    color: #e28525;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cardSuv{
+    background-color:#016972;
+    width: 260px;
+    flex: 1;
+}
+
+#buttonSuv{
+    display: block;
+    margin-top: 25%;
+    margin-left: 15%;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 20%;
+    border: none;
+    border-radius: 20px;
+    margin-left: 15%;
+    color: #016972;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cardLuxury{
+    background-color: #00403f;
+    width: 260px ;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    flex: 1;
+}
+
+#buttonLuxury{
+    display: block;
+    margin-top: 25%;
+    margin-left: 15%;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 20%;
+    border: none;
+    border-radius: 20px;
+    margin-left: 15%;
+    color: #00403F;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media (max-width: 450px) {
+
+body{
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main{
+    display: flex;
+    height: auto;
+    width: 780px;
+    max-width: 95%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardSedan{
+    background-color: #e28525;
+    width: 90% ;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.carIcon{
+    margin-left: 15%;
+    margin-top: 13%;
+    margin-bottom: 8%;
+}
+
+.carModel{
+    font-family: 'BigShoulders' ;
+    margin-left: 15%;
+    font-weight: 700;
+    color: #f2f2f2;
+    margin-bottom: 8%;
+}
+
+.cardText{
+   color: #f2f2f2;
+   margin-left: 15%;
+   font-family: 'Lexend' ;
+   font-weight: 400;
+   font-size: 0.8em;
+   width: 65%;
+   line-height: 25px;
+}
+
+#buttonSedan{
+    display: block;
+    margin-top: 10%;
+    margin-left: 15%;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 10%;
+}
+
+.cardSuv{
+    background-color:#016972;
+    width: 90%;
+}
+
+#buttonSuv{
+    display: block;
+    margin-top: 10%;
+    margin-left: 15%;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 10%;
+}
+
+.cardLuxury{
+    background-color: #00403f;
+    width: 90%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+}
+
+#buttonLuxury{
+    display: block;
+    margin-top: 10%;
+    margin-left: 15%;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 10%;
+}
+ 
+}
