@@ -78,6 +78,12 @@ main{
     cursor: pointer;
 }
 
+#buttonSedan:hover{
+    color: white;
+    background-color: #e28525 ;
+    border: 1px solid white;
+}
+
 .cardSuv{
     background-color:#016972;
     width: 260px;
@@ -100,6 +106,13 @@ main{
     font-weight: bold;
     cursor: pointer;
 }
+
+#buttonSuv:hover{
+    color: white;
+    background-color: #016972 ;
+    border: 1px solid white;
+}
+
 
 .cardLuxury{
     background-color: #00403f;
@@ -124,6 +137,12 @@ main{
     color: #00403F;
     font-weight: bold;
     cursor: pointer;
+}
+
+#buttonLuxury:hover{
+    color: white;
+    background-color: #00403F;
+    border: 1px solid white;
 }
 
 @media (max-width: 450px) {
