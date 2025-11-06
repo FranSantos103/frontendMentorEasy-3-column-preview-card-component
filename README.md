@@ -36,4 +36,4 @@ While working on this project, I reinforced my understanding of:
 
 Here’s a little code snippet I’m proud of:
 
-To be honest, this challenge was easy. I didn’t find anything new, and I can be proud of having accomplished it.#
+To be honest, this challenge was easy. I didn’t find anything new, and I can be proud of having accomplished it.
